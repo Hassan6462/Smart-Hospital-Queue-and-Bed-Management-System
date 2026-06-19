@@ -1,0 +1,10 @@
+{
+  "java.project.sourcePaths": [
+    "src",
+    "test"
+  ],
+  "java.project.outputPath": "build/classes",
+  "java.project.referencedLibraries": [
+    "C:\\openjfx-26.0.1_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\\*.jar"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "name": "Launch Chrome",
+        "request": "launch",
+        "type": "chrome",
+        "url": "http://localhost:8080",
+        "webRoot": "${workspaceFolder}"
+    },
+    {
+      "type": "java",
+      "name": "Launch SHQBMS",
+      "request": "launch",
+      "mainClass": "ui.MainApp",
+      "projectName": "SHQBMS",
+      "vmArgs": "--module-path \"C:\\openjfx-26.0.1_windows-x64_bin-sdk\\javafx-sdk-26.0.1\\lib\" --add-modules javafx.controls,javafx.fxml,javafx.swing",
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}

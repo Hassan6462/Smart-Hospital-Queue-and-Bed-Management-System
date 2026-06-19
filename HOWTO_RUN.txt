@@ -1,0 +1,20 @@
+HOW TO RUN IN INTELLIJ (Recommended)
+======================================
+
+1. Open IntelliJ → File → Open → select the hospital/ folder
+2. Mark src/ as Sources Root:
+   Right-click src/ → Mark Directory as → Sources Root
+3. Add JavaFX to project:
+   File → Project Structure → Libraries → + → Java
+   Add all .jar files from your JavaFX lib folder
+4. Edit Run Configuration:
+   Run → Edit Configurations → + → Application
+   Main class: ui.MainApp
+   VM Options: --module-path /path/to/javafx/lib --add-modules javafx.controls,javafx.graphics,javafx.fxml
+5. Click Run ▶
+
+DOWNLOAD JAVAFX (if not installed):
+  https://gluonhq.com/products/javafx/
+  Download JavaFX SDK 21 for your OS
+  Extract it anywhere (e.g. C:\javafx-sdk-21\)
+  VM Options: --module-path C:\javafx-sdk-21\lib --add-modules javafx.controls,javafx.graphics,javafx.fxml
